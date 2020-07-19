@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "durabilityapi",
+  "version": "${version}",
+
+  "name": "Durability API",
+  "description": "More control over the durability bar.",
+  "authors": [
+    "Domi"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FakeDomi/DurabilityAPI",
+    "sources": "https://github.com/FakeDomi/DurabilityAPI",
+    "issues": "https://github.com/FakeDomi/DurabilityAPI/issues"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "durabilityapi.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": ">=1.14"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
